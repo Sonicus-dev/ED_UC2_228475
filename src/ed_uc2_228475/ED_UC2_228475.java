@@ -14,6 +14,7 @@ public class ED_UC2_228475 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        /** 
         listaEnlazadaSimple ListaEnlazadaSimple = new listaEnlazadaSimple();
 
         ListaEnlazadaSimple.addFirst("Pastel");
@@ -43,5 +44,6 @@ public class ED_UC2_228475 {
 
         System.out.println("Lista después de eliminar todos los elementos:");
         System.out.println(ListaEnlazadaSimple.toString());
+        */
     }
 }
