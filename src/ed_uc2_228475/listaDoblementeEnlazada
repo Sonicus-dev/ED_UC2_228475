@@ -152,3 +152,8 @@ public class listaDoblementeEnlazada {
         Nodo actual = inicial;
         while (actual != null) {
             cadena.append(actual.getDato()).append(" ");
+            actual = actual.getSiguiente();
+        }
+        return cadena.toString();
+    }
+}    

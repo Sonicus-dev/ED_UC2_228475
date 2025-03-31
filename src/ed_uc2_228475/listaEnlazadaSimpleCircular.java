@@ -160,3 +160,10 @@ public class listaEnlazadaSimpleCircular {
     public String toString() {
         StringBuilder cadena = new StringBuilder();
         Nodo actual = inicial
+        while (actual != null) {
+            cadena.append(actual.getDato()).append(" ");
+            actual = actual.getSiguiente();
+        }
+        return cadena.toString();
+    }
+}    
