@@ -11,12 +11,13 @@ package ed_uc2_228475;
 public class nodo {
 
     private Object dato;
-
+    private Nodo anterior;
     private nodo siguiente;
 
     public nodo(Object dato) {
         this.dato = dato;
         this.siguiente = null;
+        this.anterior = null;
     }
 
     public Object getDato() {
@@ -33,5 +34,13 @@ public class nodo {
 
     public void setSiguiente(nodo siguiente) {
         this.siguiente = siguiente;
+    }
+
+    public Nodo getAnterior() {
+        return anterior;
+    }
+
+    public void setAnterior(Nodo anterior) {
+        this.anterior = anterior;
     }
 }
